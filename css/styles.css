@@ -1,0 +1,471 @@
+/*
+my screen width is 1355px
+don't think separte styling for tags are necessary*/
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7adaff;
+  text-decoration: none;
+}
+
+.home {
+  background-image: url('../assets/home/background-home-desktop.jpg');
+  color: white;
+}
+
+.home-square {
+  position: absolute;
+  top: -15px;
+  height: 50px;
+  width: 60px;
+  z-index: -1;
+  border-bottom: 2px solid white;
+}
+
+.top {
+  position: absolute;
+  right: 75px;
+  top: 50px;
+  font-family: 'Share', cursive;
+}
+
+.pad {
+  padding-right: 10px;
+}
+
+.top-url {
+  color: white;
+  text-decoration: none;
+}
+
+.top-url:hover {
+  color: #7adaff;
+  text-decoration: none;
+}
+
+.star {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.rectangle {
+  height: 100px;
+  width: 500px;
+  background-color: white;
+  filter: blur(2px);
+  opacity: 0.2;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  z-index: -1;
+}
+
+.info {
+  position: absolute;
+  left: 157px;
+  bottom: 90px;
+  width: 25%;
+}
+
+.info-travel {
+  position: absolute;
+  left: 0;
+  top: -50px;
+  width: 100%
+}
+
+.space {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 84px;
+}
+
+.info-travel {
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Space Mono', monospace;
+}
+
+.decription {
+  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Space Mono', monospace;
+}
+
+.explore {
+  position: absolute;
+  right: 250px;
+  bottom: 150px;
+  width: 200px;
+  height: 200px;
+  /*https://css-tricks.com/using-css-to-set-text-inside-a-circle/*/
+  background: radial-gradient(ellipse at center,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(255, 255, 255, 0) 70.3%);
+  color: black;
+  text-align: center;
+  line-height: 200px;
+  font-family: 'Corinthia', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Unica One', cursive;
+}
+
+.line {
+  background-color: none;
+  border-color: white;
+  opacity: 0.3;
+  border-style: solid none none none;
+  border-width: 1.5px;
+  height: 5px;
+  width: 57%;
+  position: absolute;
+  left: 150px;
+  top: 70px;
+}
+
+/*destination*/
+.destination {
+  background-image: url('../assets/destination/background-destination-desktop.jpg');
+  color: white;
+}
+
+.planet-square {
+  position: absolute;
+  top: -15px;
+  right: 177px;
+  height: 50px;
+  width: 92px;
+  z-index: -1;
+  border-bottom: 2px solid white;
+}
+
+.planet-img {
+  position: absolute;
+  left: 250px;
+  bottom: 90px;
+}
+
+.pick-destination {
+  position: absolute;
+  left: 152px;
+  top: 120px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+
+}
+
+.planets {
+  position: absolute;
+  right: 424px;
+  top: 200px;
+  word-spacing: 10px;
+  font-family: 'Alegreya SC', serif;
+}
+
+.planet-selector-moon {
+  position: absolute;
+  bottom: -9px;
+  right: 140px;
+  height: 50px;
+  width: 38px;
+  z-index: -1;
+  border-bottom: 1px solid white;
+}
+
+.planet-selector-mars {
+  position: absolute;
+  bottom: -9px;
+  right: 94px;
+  height: 50px;
+  width: 40px;
+  z-index: -1;
+  border-bottom: 1px solid white;
+}
+
+.planet-selector-europa {
+  position: absolute;
+  bottom: -9px;
+  right: 39px;
+  height: 50px;
+  width: 51px;
+  z-index: -1;
+  border-bottom: 1px solid white;
+}
+
+.planet-selector-titan {
+  position: absolute;
+  bottom: -9px;
+  right: -6px;
+  height: 50px;
+  width: 40px;
+  z-index: -1;
+  border-bottom: 1px solid white;
+}
+
+.planet-name {
+  position: absolute;
+  left: 840px;
+  top: 254px;
+  font-family: 'Alegreya SC', serif;
+  font-family: 'Turret Road', cursive;
+  font-size: 54px;
+}
+
+.planet-description {
+  position: absolute;
+  right: 240px;
+  top: 360px;
+  width: 25%;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+}
+
+.distance {
+  position: absolute;
+  left: 843px;
+  bottom: 55px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+
+}
+
+.travel {
+  position: absolute;
+  right: 296px;
+  bottom: 55px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 15.5px;
+
+
+}
+
+.planet-division {
+  background-color: none;
+  border-color: white;
+  opacity: 0.3;
+  border-style: solid none none none;
+  border-width: 1.5px;
+  height: 5px;
+  width: 27%;
+  position: absolute;
+  right: 210px;
+  bottom: 135px;
+}
+
+.planet-url {
+  color: white;
+  text-decoration: none;
+}
+
+.planet-url:hover {
+  color: #7adaff;
+  text-decoration: none;
+}
+
+/*crew*/
+.crew {
+  background-image: url('../assets/crew/background-crew-desktop.jpg');
+  color: white;
+}
+
+.crew-square {
+  position: absolute;
+  top: -15px;
+  right: 112px;
+  height: 50px;
+  width: 53px;
+  z-index: -1;
+  border-bottom: 2px solid white;
+}
+
+.crew-img {
+  position: absolute;
+  bottom: 0;
+  right: 170px;
+}
+
+.meet-crew {
+  position: absolute;
+  top: 150px;
+  left: 170px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+
+}
+
+.job {
+  position: absolute;
+  top: 250px;
+  left: 170px;
+  font-family: 'Kurale', serif;
+  font-size: 25px;
+}
+
+.name {
+  position: absolute;
+  top: 300px;
+  left: 170px;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 40px;
+}
+
+.crew-decription {
+  position: absolute;
+  top: 370px;
+  left: 170px;
+  width: 30%;
+  font-family: 'Happy Monkey', cursive;
+  line-height: 1.6;
+}
+
+.circle {
+  height: 10px;
+  width: 10px;
+  background-color: #555;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.circle-clicked {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.circle:hover {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+#one {
+  position: absolute;
+  bottom: 130px;
+  left: 170px;
+}
+
+#two {
+  position: absolute;
+  bottom: 130px;
+  left: 190px;
+}
+
+#three {
+  position: absolute;
+  bottom: 130px;
+  left: 210px;
+}
+
+#four {
+  position: absolute;
+  bottom: 130px;
+  left: 230px;
+}
+
+/*technology*/
+.technology {
+  background-image: url('../assets/technology/background-technology-desktop.jpg');
+  color: white;
+}
+
+.tech-square {
+  position: absolute;
+  top: -15px;
+  right: 6px;
+  height: 50px;
+  width: 95px;
+  z-index: -1;
+  border-bottom: 2px solid white;
+}
+
+.tech {
+  position: absolute;
+  top: 150px;
+  left: 155px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+}
+
+.tech-title {
+  font-family: 'Black Ops One', cursive;
+  font-size: 50px;
+  position: absolute;
+  top: 305px;
+  left: 350px;
+}
+
+.introduction {
+  font-family: 'Space Mono', monospace;
+  position: absolute;
+  top: 270px;
+  left: 350px;
+}
+
+.tech-img {
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+}
+
+.tech-tabs {
+  font-family: 'Corinthia', cursive;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Unica One', cursive;
+  position: absolute;
+  top: 292px;
+  left: 200px;
+}
+
+.tech-description {
+  position: absolute;
+  top: 410px;
+  left: 350px;
+  width: 30%;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.clicked {
+  width: 66px;
+  height: 66px;
+  background: radial-gradient(ellipse at center,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(255, 255, 255, 0) 70.3%);
+  opacity: 95%;
+  color: black;
+  text-align: center;
+  line-height: 67px;
+}
+
+.unclicked {
+  width: 66px;
+  height: 66px;
+  background: radial-gradient(ellipse at center,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(255, 255, 255, 0) 70.3%);
+  opacity: 20%;
+  color: black;
+  text-align: center;
+  line-height: 67px;
+}
+
+.unclicked:hover {
+  width: 66px;
+  height: 66px;
+  background: radial-gradient(ellipse at center,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 70%,
+      rgba(255, 255, 255, 0) 70.3%);
+  opacity: 70%;
+  color: black;
+  text-align: center;
+  line-height: 67px;
+}
